@@ -18,7 +18,7 @@ class Artist
     add_song(song)
   end
 
-  def song_count
+  def self.song_count
     @@artists.map{|artist| artist.songs}.flatten.size
   end
 
