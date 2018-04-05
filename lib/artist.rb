@@ -20,5 +20,6 @@ class Artist
 
   def song_count
     @@artists.map{|artist| artist.songs}.flatten.size
+  end
 
 end
